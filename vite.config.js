@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // ...
+  base: "/TodoList-App/",
   server: {
     mimeTypes: {
-      base: "/TodoList-App/",
       '.jsx': 'text/javascript',
     },
   },
