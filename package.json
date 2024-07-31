@@ -1,4 +1,8 @@
 {
+  "scripts": {
+  "build": "vite build",
+  "start": "vite"
+},
   "name": "todo-list-app",
   "private": true,
   "version": "0.0.0",
