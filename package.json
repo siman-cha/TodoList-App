@@ -8,6 +8,7 @@
   "name": "todo-list-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://siman-cha.github.io/TodoList-App/",
   "type": "module",
   "dependencies": {
     "react": "^18.3.1",
