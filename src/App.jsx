@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { useState, useEffect } from "react";
 import Navbar from "./components/navbar";
 import { FaEdit } from "react-icons/fa";
@@ -19,7 +19,7 @@ useEffect(() => {
   localStorage.setItem("todos", JSON.stringify(todos));
 }, [todos]);
 
-  const toggleFinished = (e) => {
+  const toggleFinished = () => {
     setshowFinished(!showFinished)
   }
 
