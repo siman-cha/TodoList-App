@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
 import { useState, useEffect } from "react";
 import Navbar from "./components/navbar";
 import { FaEdit } from "react-icons/fa";
